@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "E-RF: region-stratified functional recalibration of computational thresholds for ACMG/AMP variant classification"
+authors:
+  - family-names: "Gil Ruiz"
+    given-names: "Jesús"
+    affiliation: "Universidad Europea de Madrid"
+  - family-names: "Rivera Torres"
+    given-names: "José"
+    affiliation: "Universidad Europea de Madrid"
+  - family-names: "Rodríguez Regadera"
+    given-names: "Diego Rubén"
+    affiliation: "Universidad Europea de Madrid"
+version: 1.0.0
+date-released: 2026-08-14
+license: MIT
+repository-code: "https://github.com/jesusgilru-prog/erf-vcep-recalibration"

@@ -1,0 +1,296 @@
+{
+  "MSH2": {
+    "barrido_umbral_posterior_gmm2": {
+      "0.7": {
+        "n_ambigua": 115,
+        "peso_patho_total": 54.355396219109515,
+        "peso_ben_total": 60.64460378089049,
+        "lr_puntual": 1.0594087543617274,
+        "ic95": [
+          0.9623559313929048,
+          1.1662903729966638
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 442,
+        "cobertura_predictor": 115,
+        "ic_incluye_1": true
+      },
+      "0.8": {
+        "n_ambigua": 211,
+        "peso_patho_total": 93.12213776981045,
+        "peso_ben_total": 117.87786223018955,
+        "lr_puntual": 1.1936835519675575,
+        "ic95": [
+          1.0592311960867045,
+          1.3515749387066376
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 815,
+        "cobertura_predictor": 211,
+        "ic_incluye_1": false
+      },
+      "0.9": {
+        "n_ambigua": 409,
+        "peso_patho_total": 149.18324863719602,
+        "peso_ben_total": 259.816751362804,
+        "lr_puntual": 1.2562279808559456,
+        "ic95": [
+          1.0972888166492611,
+          1.4330379723984388
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 1465,
+        "cobertura_predictor": 409,
+        "ic_incluye_1": false
+      },
+      "0.95": {
+        "n_ambigua": 637,
+        "peso_patho_total": 188.40639203812268,
+        "peso_ben_total": 448.59360796187735,
+        "lr_puntual": 1.4721182015454553,
+        "ic95": [
+          1.2926511115158326,
+          1.678535175833107
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 2261,
+        "cobertura_predictor": 637,
+        "ic_incluye_1": false
+      },
+      "0.99": {
+        "n_ambigua": 1471,
+        "peso_patho_total": 258.4678726277608,
+        "peso_ben_total": 1212.532127372239,
+        "lr_puntual": 1.8304989515664778,
+        "ic95": [
+          1.6197315301882225,
+          2.0607113599824376
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 5057,
+        "cobertura_predictor": 1471,
+        "ic_incluye_1": false
+      }
+    },
+    "gmm3_ambigua_por_argmax": {
+      "n_ambigua": 2105,
+      "peso_patho_total": 39.41534905202357,
+      "peso_ben_total": 364.8781666912896,
+      "lr_puntual": 2.058763231547229,
+      "ic95": [
+        1.6426940373001948,
+        2.5019934808946944
+      ],
+      "n_boot_validos": 10000,
+      "n_ambigua_total": 6824,
+      "cobertura_predictor": 2105,
+      "ic_incluye_1": false,
+      "gmm3_medias": [
+        -4.3014733065940405,
+        1.481142976604265,
+        -2.5310681247064326
+      ],
+      "gmm3_pesos": [
+        0.46600340889717035,
+        0.12333222348326138,
+        0.4106643676195683
+      ]
+    }
+  },
+  "TP53": {
+    "barrido_umbral_posterior_gmm2": {
+      "0.7": {
+        "n_ambigua": 151,
+        "peso_patho_total": 77.63482493156664,
+        "peso_ben_total": 73.36517506843337,
+        "lr_puntual": 1.0081996405208014,
+        "ic95": [
+          0.9619870693974206,
+          1.0551466263406246
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 184,
+        "cobertura_predictor": 151,
+        "ic_incluye_1": true
+      },
+      "0.8": {
+        "n_ambigua": 228,
+        "peso_patho_total": 118.19460898467398,
+        "peso_ben_total": 109.80539101532602,
+        "lr_puntual": 0.982070602460217,
+        "ic95": [
+          0.9266630762783183,
+          1.0403513541364315
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 290,
+        "cobertura_predictor": 228,
+        "ic_incluye_1": true
+      },
+      "0.9": {
+        "n_ambigua": 421,
+        "peso_patho_total": 231.73023575622216,
+        "peso_ben_total": 189.26976424377784,
+        "lr_puntual": 0.9743857025550249,
+        "ic95": [
+          0.9029029596535314,
+          1.0526463531964723
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 527,
+        "cobertura_predictor": 421,
+        "ic_incluye_1": true
+      },
+      "0.95": {
+        "n_ambigua": 603,
+        "peso_patho_total": 337.3485139901335,
+        "peso_ben_total": 265.6514860098665,
+        "lr_puntual": 0.97647214611231,
+        "ic95": [
+          0.9017348482762685,
+          1.0571593185907338
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 751,
+        "cobertura_predictor": 603,
+        "ic_incluye_1": true
+      },
+      "0.99": {
+        "n_ambigua": 1251,
+        "peso_patho_total": 804.2835157894917,
+        "peso_ben_total": 446.71648421050827,
+        "lr_puntual": 0.9949177982335651,
+        "ic95": [
+          0.9145819458539441,
+          1.082972199557516
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 1628,
+        "cobertura_predictor": 1251,
+        "ic_incluye_1": true
+      }
+    },
+    "gmm3_ambigua_por_argmax": {
+      "n_ambigua": 3050,
+      "peso_patho_total": 74.10515708369712,
+      "peso_ben_total": 603.6577202677429,
+      "lr_puntual": 1.4130754328047879,
+      "ic95": [
+        1.2532931640666718,
+        1.5785201347297289
+      ],
+      "n_boot_validos": 10000,
+      "n_ambigua_total": 3766,
+      "cobertura_predictor": 3050,
+      "ic_incluye_1": false,
+      "gmm3_medias": [
+        -0.032260230340269036,
+        -0.778278544963513,
+        1.4161933480445619
+      ],
+      "gmm3_pesos": [
+        0.4631870800164934,
+        0.3479695275786387,
+        0.18884339240486797
+      ]
+    }
+  },
+  "BRCA1": {
+    "barrido_umbral_posterior_gmm2": {
+      "0.7": {
+        "n_ambigua": 63,
+        "peso_patho_total": 30.196570730949496,
+        "peso_ben_total": 32.8034292690505,
+        "lr_puntual": 1.028830026682682,
+        "ic95": [
+          0.7791486228693263,
+          1.3622649382396212
+        ],
+        "n_boot_validos": 9999,
+        "n_ambigua_total": 64,
+        "cobertura_predictor": 63,
+        "ic_incluye_1": true
+      },
+      "0.8": {
+        "n_ambigua": 110,
+        "peso_patho_total": 46.23062044339069,
+        "peso_ben_total": 63.76937955660931,
+        "lr_puntual": 1.052777542899349,
+        "ic95": [
+          0.760519316161557,
+          1.4656341895928993
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 111,
+        "cobertura_predictor": 110,
+        "ic_incluye_1": true
+      },
+      "0.9": {
+        "n_ambigua": 195,
+        "peso_patho_total": 74.14122436287448,
+        "peso_ben_total": 120.85877563712552,
+        "lr_puntual": 1.3225755672068593,
+        "ic95": [
+          0.9100025781913511,
+          1.9296807578619308
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 197,
+        "cobertura_predictor": 195,
+        "ic_incluye_1": true
+      },
+      "0.95": {
+        "n_ambigua": 279,
+        "peso_patho_total": 91.14442220731331,
+        "peso_ben_total": 187.8555777926867,
+        "lr_puntual": 1.459253894434185,
+        "ic95": [
+          1.0145360314207124,
+          2.1001174004913943
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 283,
+        "cobertura_predictor": 279,
+        "ic_incluye_1": false
+      },
+      "0.99": {
+        "n_ambigua": 895,
+        "peso_patho_total": 130.21145170434724,
+        "peso_ben_total": 764.7885482956527,
+        "lr_puntual": 1.979912845771995,
+        "ic95": [
+          1.422567381104303,
+          2.6830183948315693
+        ],
+        "n_boot_validos": 10000,
+        "n_ambigua_total": 907,
+        "cobertura_predictor": 895,
+        "ic_incluye_1": false
+      }
+    },
+    "gmm3_ambigua_por_argmax": {
+      "n_ambigua": 233,
+      "peso_patho_total": 32.82615556142664,
+      "peso_ben_total": 35.04341656890322,
+      "lr_puntual": 1.9860524357164806,
+      "ic95": [
+        1.199542094508213,
+        3.570863033582632
+      ],
+      "n_boot_validos": 10000,
+      "n_ambigua_total": 235,
+      "cobertura_predictor": 233,
+      "ic_incluye_1": false,
+      "gmm3_medias": [
+        0.6977441630667537,
+        2.009410622040218,
+        0.042990922964333704
+      ],
+      "gmm3_pesos": [
+        0.16479685265665533,
+        0.24304488763326318,
+        0.5921582597100815
+      ]
+    }
+  }
+}

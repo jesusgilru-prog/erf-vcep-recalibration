@@ -1,0 +1,421 @@
+{
+  "gmm_medias": [
+    -3.5242528891579954,
+    1.016565518275943
+  ],
+  "gmm_pesos": [
+    0.8539900142920995,
+    0.14600998570790047
+  ],
+  "n_total_dms": 16749,
+  "n_inequivoca": 15284,
+  "n_pat_dura": 1733,
+  "n_ben_dura": 13551,
+  "n_ambigua": 1465,
+  "por_predictor": {
+    "oficial": {
+      "cortes": {
+        "corte_ben_supporting": 0.11,
+        "corte_patho_supporting": 0.68,
+        "corte_patho_moderate": 0.81,
+        "n_pat_calibracion": null,
+        "n_ben_calibracion": null,
+        "prior_p": null,
+        "fijo_por_VCEP": true
+      },
+      "lr_duro": {
+        "BP4_Supporting": {
+          "n_pat": 377,
+          "n_ben": 4407,
+          "tpr": 0.05570291777188329,
+          "fpr": 0.5046516904923984,
+          "lr_puntual": 9.059699395982582,
+          "ic95": [
+            6.310012765519417,
+            14.9474856590919
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_duro": true,
+          "ic_incluye_nominal_o_menos": false
+        },
+        "PP3_Supporting": {
+          "n_pat": 377,
+          "n_ben": 4407,
+          "tpr": 0.8514588859416445,
+          "fpr": 0.24393011118674834,
+          "lr_puntual": 3.4905854049719327,
+          "ic95": [
+            3.2667492542243624,
+            3.73232059458765
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_duro": true,
+          "ic_incluye_nominal_o_menos": false
+        },
+        "PP3_Moderate": {
+          "n_pat": 377,
+          "n_ben": 4407,
+          "tpr": 0.76657824933687,
+          "fpr": 0.17880644429316997,
+          "lr_puntual": 4.2871958690705405,
+          "ic95": [
+            3.9444089587761555,
+            4.655940737143914
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 4.3,
+          "alcanza_nominal_duro": false,
+          "ic_incluye_nominal_o_menos": true
+        }
+      },
+      "lr_blando_ambigua": {
+        "BP4_Supporting": {
+          "n_ambigua": 409,
+          "peso_patho_total": 149.18324863719602,
+          "peso_ben_total": 259.816751362804,
+          "lr_puntual": 1.3657471397940886,
+          "ic95": [
+            1.132948653157997,
+            1.6586485398857347
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_blando": false,
+          "ic_incluye_1": false
+        },
+        "PP3_Supporting": {
+          "n_ambigua": 409,
+          "peso_patho_total": 149.18324863719602,
+          "peso_ben_total": 259.816751362804,
+          "lr_puntual": 1.2096093574615794,
+          "ic95": [
+            1.0900393413566216,
+            1.3458164116274975
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_blando": false,
+          "ic_incluye_1": false
+        },
+        "PP3_Moderate": {
+          "n_ambigua": 409,
+          "peso_patho_total": 149.18324863719602,
+          "peso_ben_total": 259.816751362804,
+          "lr_puntual": 1.2562279808559453,
+          "ic95": [
+            1.0985747898027869,
+            1.430848564721917
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 4.3,
+          "alcanza_nominal_blando": false,
+          "ic_incluye_1": false
+        }
+      }
+    },
+    "esm2": {
+      "cortes": {
+        "n_pat_calibracion": 121,
+        "n_ben_calibracion": 57,
+        "prior_p": 0.6797752808988764,
+        "corte_ben_supporting": -5.858080625534058,
+        "corte_patho_supporting": 10.252991236362856,
+        "corte_patho_moderate": 11.55726924378585,
+        "fijo_por_VCEP": false
+      },
+      "lr_duro": {
+        "BP4_Supporting": {
+          "n_pat": 1733,
+          "n_ben": 13551,
+          "tpr": 0.0,
+          "fpr": 7.379529186037931e-05,
+          "lr_puntual": Infinity,
+          "ic95": [
+            null,
+            null
+          ],
+          "n_boot_validos": 0,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_duro": true,
+          "ic_incluye_nominal_o_menos": false
+        },
+        "PP3_Supporting": {
+          "n_pat": 1733,
+          "n_ben": 13551,
+          "tpr": 0.8920946335833814,
+          "fpr": 0.335989963840307,
+          "lr_puntual": 2.6551228595845378,
+          "ic95": [
+            2.5795364145517627,
+            2.7322576523295434
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_duro": true,
+          "ic_incluye_nominal_o_menos": false
+        },
+        "PP3_Moderate": {
+          "n_pat": 1733,
+          "n_ben": 13551,
+          "tpr": 0.7645701096364685,
+          "fpr": 0.2143015275625415,
+          "lr_puntual": 3.5677305632519922,
+          "ic95": [
+            3.4203117135653898,
+            3.7199397587860883
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 4.3,
+          "alcanza_nominal_duro": false,
+          "ic_incluye_nominal_o_menos": true
+        }
+      },
+      "lr_blando_ambigua": {
+        "BP4_Supporting": {
+          "n_ambigua": 1465,
+          "peso_patho_total": 543.6341978218784,
+          "peso_ben_total": 921.3658021781216,
+          "lr_puntual": Infinity,
+          "ic95": [
+            null,
+            null
+          ],
+          "n_boot_validos": 0,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_blando": true,
+          "ic_incluye_1": false
+        },
+        "PP3_Supporting": {
+          "n_ambigua": 1465,
+          "peso_patho_total": 543.6341978218784,
+          "peso_ben_total": 921.3658021781216,
+          "lr_puntual": 1.1525293049069596,
+          "ic95": [
+            1.1059762795132138,
+            1.2011210895900817
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_blando": false,
+          "ic_incluye_1": false
+        },
+        "PP3_Moderate": {
+          "n_ambigua": 1465,
+          "peso_patho_total": 543.6341978218784,
+          "peso_ben_total": 921.3658021781216,
+          "lr_puntual": 1.1866565560885471,
+          "ic95": [
+            1.1215298296713805,
+            1.2571924414602385
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 4.3,
+          "alcanza_nominal_blando": false,
+          "ic_incluye_1": false
+        }
+      }
+    },
+    "alphamissense": {
+      "cortes": {
+        "n_pat_calibracion": 121,
+        "n_ben_calibracion": 57,
+        "prior_p": 0.6797752808988764,
+        "corte_ben_supporting": 0.0405,
+        "corte_patho_supporting": 0.8866371668583429,
+        "corte_patho_moderate": null,
+        "fijo_por_VCEP": false
+      },
+      "lr_duro": {
+        "BP4_Supporting": {
+          "n_pat": 377,
+          "n_ben": 4418,
+          "tpr": 0.0,
+          "fpr": 0.00022634676324128565,
+          "lr_puntual": Infinity,
+          "ic95": [
+            null,
+            null
+          ],
+          "n_boot_validos": 0,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_duro": true,
+          "ic_incluye_nominal_o_menos": false
+        },
+        "PP3_Supporting": {
+          "n_pat": 377,
+          "n_ben": 4418,
+          "tpr": 0.8938992042440318,
+          "fpr": 0.15753734721593482,
+          "lr_puntual": 5.67420500625019,
+          "ic95": [
+            5.272446368031496,
+            6.1323770101670005
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_duro": true,
+          "ic_incluye_nominal_o_menos": false
+        },
+        "PP3_Moderate": null
+      },
+      "lr_blando_ambigua": {
+        "BP4_Supporting": {
+          "n_ambigua": 411,
+          "peso_patho_total": 149.62187164550886,
+          "peso_ben_total": 261.3781283544912,
+          "lr_puntual": Infinity,
+          "ic95": [
+            null,
+            null
+          ],
+          "n_boot_validos": 0,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_blando": true,
+          "ic_incluye_1": false
+        },
+        "PP3_Supporting": {
+          "n_ambigua": 411,
+          "peso_patho_total": 149.62187164550886,
+          "peso_ben_total": 261.3781283544912,
+          "lr_puntual": 1.2700899257715257,
+          "ic95": [
+            1.1386547801622033,
+            1.4183318765827015
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_blando": false,
+          "ic_incluye_1": false
+        },
+        "PP3_Moderate": null
+      }
+    },
+    "esm1v": {
+      "cortes": {
+        "n_pat_calibracion": 121,
+        "n_ben_calibracion": 57,
+        "prior_p": 0.6797752808988764,
+        "corte_ben_supporting": -5.8437622547149655,
+        "corte_patho_supporting": 8.506374329966153,
+        "corte_patho_moderate": 10.044685870919803,
+        "fijo_por_VCEP": false
+      },
+      "lr_duro": {
+        "BP4_Supporting": {
+          "n_pat": 1733,
+          "n_ben": 13551,
+          "tpr": 0.0,
+          "fpr": 7.379529186037931e-05,
+          "lr_puntual": Infinity,
+          "ic95": [
+            null,
+            null
+          ],
+          "n_boot_validos": 0,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_duro": true,
+          "ic_incluye_nominal_o_menos": false
+        },
+        "PP3_Supporting": {
+          "n_pat": 1733,
+          "n_ben": 13551,
+          "tpr": 0.8436237738026544,
+          "fpr": 0.19334366467419378,
+          "lr_puntual": 4.363338075877775,
+          "ic95": [
+            4.188576069574304,
+            4.540673897393203
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_duro": true,
+          "ic_incluye_nominal_o_menos": false
+        },
+        "PP3_Moderate": {
+          "n_pat": 1733,
+          "n_ben": 13551,
+          "tpr": 0.6964800923254472,
+          "fpr": 0.11445649767544831,
+          "lr_puntual": 6.085107499098733,
+          "ic95": [
+            5.755596960965542,
+            6.427167732177033
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 4.3,
+          "alcanza_nominal_duro": true,
+          "ic_incluye_nominal_o_menos": false
+        }
+      },
+      "lr_blando_ambigua": {
+        "BP4_Supporting": {
+          "n_ambigua": 1465,
+          "peso_patho_total": 543.6341978218784,
+          "peso_ben_total": 921.3658021781216,
+          "lr_puntual": Infinity,
+          "ic95": [
+            null,
+            null
+          ],
+          "n_boot_validos": 0,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_blando": true,
+          "ic_incluye_1": false
+        },
+        "PP3_Supporting": {
+          "n_ambigua": 1465,
+          "peso_patho_total": 543.6341978218784,
+          "peso_ben_total": 921.3658021781216,
+          "lr_puntual": 1.2242468703700538,
+          "ic95": [
+            1.161443646059614,
+            1.2910956769263322
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 2.08,
+          "alcanza_nominal_blando": false,
+          "ic_incluye_1": false
+        },
+        "PP3_Moderate": {
+          "n_ambigua": 1465,
+          "peso_patho_total": 543.6341978218784,
+          "peso_ben_total": 921.3658021781216,
+          "lr_puntual": 1.276704372590686,
+          "ic95": [
+            1.1877116568324335,
+            1.370853734861882
+          ],
+          "n_boot_validos": 10000,
+          "nominal_esperado": 4.3,
+          "alcanza_nominal_blando": false,
+          "ic_incluye_1": false
+        }
+      }
+    }
+  },
+  "extrapolacion_vus_msh6_pms2": {
+    "MSH6": {
+      "n_vus_con_prior_oficial": 3722,
+      "distribucion_actual": {
+        "PP3_Moderate": 634,
+        "PP3_Supporting": 204,
+        "BP4_Supporting": 2114,
+        "sin_evidencia": 770
+      },
+      "distribucion_recalibrada": null
+    },
+    "PMS2": {
+      "n_vus_con_prior_oficial": 2368,
+      "distribucion_actual": {
+        "PP3_Moderate": 623,
+        "PP3_Supporting": 202,
+        "BP4_Supporting": 1064,
+        "sin_evidencia": 479
+      },
+      "distribucion_recalibrada": null
+    }
+  },
+  "nota_extrapolacion": "Los cortes de SCORE oficiales (0.11/0.68/0.81) son fijos por la especificacion VCEP y no dependen del gen; la pregunta de si mantenerlos declarados como Moderate/Supporting esta o no respaldada por LR real se responde en MSH2 (unico gen con DMS). No se recuenta aqui una nueva distribucion de codigos porque los cortes de SCORE serian los MISMOS -- lo que cambiaria es solo la ETIQUETA de fuerza (p.ej. degradar 'PP3_Moderate' a 'PP3_Supporting' si el LR real no alcanza 4.3), no el recuento de VUS por corte de score. El recuento real que importa es cuantas VUS de MSH6/PMS2 quedan bajo cada corte de score HOY (arriba), y ese recuento no cambia con el resultado de E-RF -- lo que cambia es la fuerza que se les puede declarar honestamente."
+}

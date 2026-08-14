@@ -1,0 +1,797 @@
+{
+  "MSH6": {
+    "n_calibracion_pat": 37,
+    "n_calibracion_ben": 22,
+    "prior_p_brnich2019": 0.6271186440677966,
+    "aciertos": 15,
+    "total": 18,
+    "tasa_acierto": 0.8333333333333334,
+    "tasa_acierto_ic95_wilson": [
+      0.6077750036164076,
+      0.9416352959953425
+    ],
+    "cumple_criterio_b_70pct_puntual": true,
+    "calibracion_degenerada": false,
+    "n_pp3": 7,
+    "n_bp4": 8,
+    "detalle": [
+      {
+        "variante": "D@220",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.028191109640373413,
+        "oddspath_ci95": [
+          0.0011794220941499808,
+          0.07922853805819469
+        ],
+        "evidencia_predicha_conservadora": "BP4_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "S@340",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.03651666000185424,
+        "oddspath_ci95": [
+          0.00182446625736621,
+          0.09652808415512612
+        ],
+        "evidencia_predicha_conservadora": "BP4_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "H@468",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 1.7453715109631447,
+        "oddspath_ci95": [
+          0.7370988537484005,
+          9.073931866316439
+        ],
+        "evidencia_predicha_conservadora": "sin_evidencia",
+        "acierta": true
+      },
+      {
+        "variante": "L@800",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.012693954383225105,
+        "oddspath_ci95": [
+          0.0003073667099649676,
+          0.04262318346726799
+        ],
+        "evidencia_predicha_conservadora": "BP4_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "Q@922",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.1953822706333937,
+        "oddspath_ci95": [
+          0.03334452983631683,
+          0.4505413809192232
+        ],
+        "evidencia_predicha_conservadora": "BP4_Supporting",
+        "acierta": true
+      },
+      {
+        "variante": "V@1163",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 2.724258850401466,
+        "oddspath_ci95": [
+          1.2186366120329537,
+          18.207764572056288
+        ],
+        "evidencia_predicha_conservadora": "sin_evidencia",
+        "acierta": false
+      },
+      {
+        "variante": "K@1304",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.20690006128016608,
+        "oddspath_ci95": [
+          0.036584775505654914,
+          0.47852787730914315
+        ],
+        "evidencia_predicha_conservadora": "BP4_Supporting",
+        "acierta": true
+      },
+      {
+        "variante": "L@1329",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.00554112751573792,
+        "oddspath_ci95": [
+          7.980586568926149e-05,
+          0.022925292845409243
+        ],
+        "evidencia_predicha_conservadora": "BP4_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "E@398",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 82.3621865002833,
+        "oddspath_ci95": [
+          20.488854546296896,
+          6521.246230213661
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "P@482",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 124.6797836084927,
+        "oddspath_ci95": [
+          27.915884609878088,
+          13645.916256243594
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "R@541",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 11.832904720501146,
+        "oddspath_ci95": [
+          4.646472199602807,
+          208.84088023231132
+        ],
+        "evidencia_predicha_conservadora": "PP3_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "D@686",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 18.46055604156633,
+        "oddspath_ci95": [
+          6.515962347868442,
+          478.65502527113557
+        ],
+        "evidencia_predicha_conservadora": "PP3_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "S@706",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 37.465831350217194,
+        "oddspath_ci95": [
+          11.143015673022557,
+          1662.7262466742568
+        ],
+        "evidencia_predicha_conservadora": "PP3_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "P@1055",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 98.66048935660731,
+        "oddspath_ci95": [
+          23.446306495131644,
+          8958.529327022947
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "H@1058",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 1.102898565539235,
+        "oddspath_ci95": [
+          0.42120714551423555,
+          4.508186846224665
+        ],
+        "evidencia_predicha_conservadora": "BP4_Supporting",
+        "acierta": false
+      },
+      {
+        "variante": "C@1076",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 3.7257966626811574,
+        "oddspath_ci95": [
+          1.6457820778568428,
+          29.222251400938667
+        ],
+        "evidencia_predicha_conservadora": "sin_evidencia",
+        "acierta": true
+      },
+      {
+        "variante": "P@1211",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 9.227601154299583,
+        "oddspath_ci95": [
+          3.7937462611045634,
+          134.6568581381017
+        ],
+        "evidencia_predicha_conservadora": "PP3_Supporting",
+        "acierta": true
+      },
+      {
+        "variante": "Q@1334",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 0.031335043344247464,
+        "oddspath_ci95": [
+          0.001405884044325432,
+          0.08587566685394353
+        ],
+        "evidencia_predicha_conservadora": "BP4_Moderate",
+        "acierta": false
+      }
+    ]
+  },
+  "PMS2": {
+    "n_calibracion_pat": 22,
+    "n_calibracion_ben": 5,
+    "prior_p_brnich2019": 0.8148148148148148,
+    "aciertos": 46,
+    "total": 51,
+    "tasa_acierto": 0.9019607843137255,
+    "tasa_acierto_ic95_wilson": [
+      0.7902151004554693,
+      0.957392555046923
+    ],
+    "cumple_criterio_b_70pct_puntual": true,
+    "calibracion_degenerada": false,
+    "n_pp3": 32,
+    "n_bp4": 13,
+    "detalle": [
+      {
+        "variante": "F@28",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 1390.2224221730132,
+        "oddspath_ci95": [
+          143.26120678617556,
+          88372.5558000606
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "V@48",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 7147.757991474539,
+        "oddspath_ci95": [
+          514.9096666439873,
+          349999.6499899356
+        ],
+        "evidencia_predicha_conservadora": "PP3_VeryStrong",
+        "acierta": true
+      },
+      {
+        "variante": "P@56",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 528.7166892885605,
+        "oddspath_ci95": [
+          63.88711096435636,
+          21713.372602242493
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "Q@56",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 921.3791881763299,
+        "oddspath_ci95": [
+          102.76475835748478,
+          48486.90368097026
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "E@74",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 4608.920474869016,
+        "oddspath_ci95": [
+          370.52509208193146,
+          301372.7812671381
+        ],
+        "evidencia_predicha_conservadora": "PP3_VeryStrong",
+        "acierta": true
+      },
+      {
+        "variante": "A@89",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 1463.1060720969135,
+        "oddspath_ci95": [
+          149.28765049413727,
+          95302.41461910449
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "N@92",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 279.9733703118405,
+        "oddspath_ci95": [
+          37.99692654500066,
+          8749.298997344993
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "P@111",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 12439.924586518662,
+        "oddspath_ci95": [
+          814.5410115697214,
+          349999.6499899356
+        ],
+        "evidencia_predicha_conservadora": "PP3_VeryStrong",
+        "acierta": true
+      },
+      {
+        "variante": "E@168",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 3780.8372900365243,
+        "oddspath_ci95": [
+          312.6079331061071,
+          285713.99999178405
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "S@169",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 4905.5427102659305,
+        "oddspath_ci95": [
+          388.5092991410421,
+          328138.1859776896
+        ],
+        "evidencia_predicha_conservadora": "PP3_VeryStrong",
+        "acierta": true
+      },
+      {
+        "variante": "H@169",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 757.9904988488242,
+        "oddspath_ci95": [
+          86.64473677627358,
+          36427.1833910271
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "P@618",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 12.017558843619762,
+        "oddspath_ci95": [
+          2.1135301973700735,
+          109.63868285846495
+        ],
+        "evidencia_predicha_conservadora": "PP3_Supporting",
+        "acierta": true
+      },
+      {
+        "variante": "D@680",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 497.7521637487016,
+        "oddspath_ci95": [
+          61.03664461483998,
+          19938.095363219665
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "E@690",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 66.06997869543831,
+        "oddspath_ci95": [
+          10.859903748841308,
+          1128.0797394446074
+        ],
+        "evidencia_predicha_conservadora": "PP3_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "N@707",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 5.571187723567514,
+        "oddspath_ci95": [
+          0.9741585199279775,
+          37.5035511825481
+        ],
+        "evidencia_predicha_conservadora": "sin_evidencia",
+        "acierta": false
+      },
+      {
+        "variante": "I@742",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 4222.8207633796665,
+        "oddspath_ci95": [
+          346.511000406685,
+          285713.99999178405
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "K@749",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 393.7652183885583,
+        "oddspath_ci95": [
+          50.148338000174654,
+          14289.103319723969
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "S@751",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 2597.908534424491,
+        "oddspath_ci95": [
+          236.25294739073942,
+          212129.24356422795
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "G@812",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 2508.7094835191324,
+        "oddspath_ci95": [
+          230.29750341109695,
+          201461.50165681005
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "P@815",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 9863.695581007458,
+        "oddspath_ci95": [
+          658.6672481999882,
+          349999.6499899356
+        ],
+        "evidencia_predicha_conservadora": "PP3_VeryStrong",
+        "acierta": true
+      },
+      {
+        "variante": "P@822",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 1283.7401496312846,
+        "oddspath_ci95": [
+          134.6471617347508,
+          78550.11728918184
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "S@831",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 77.4259394239614,
+        "oddspath_ci95": [
+          12.483006674574881,
+          1409.2493819586098
+        ],
+        "evidencia_predicha_conservadora": "PP3_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "T@834",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 2096.2459430118743,
+        "oddspath_ci95": [
+          198.90824489945658,
+          157376.9792981258
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "H@844",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 845.5124221259935,
+        "oddspath_ci95": [
+          95.72015155442024,
+          42699.43391541928
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "R@845",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 794.1605687528064,
+        "oddspath_ci95": [
+          90.50541729696828,
+          38981.43549263293
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "W@847",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 3668.470397530884,
+        "oddspath_ci95": [
+          304.29228584799137,
+          285713.99999178405
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "R@850",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 1090.0530965748499,
+        "oddspath_ci95": [
+          117.93638134515201,
+          61676.79807214902
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "K@850",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 1332.824972586577,
+        "oddspath_ci95": [
+          138.58598375922432,
+          83031.38797029828
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "T@6",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.13308500962077108,
+        "oddspath_ci95": [
+          0.01436437462589163,
+          0.40594564492687424
+        ],
+        "evidencia_predicha_conservadora": "BP4_Supporting",
+        "acierta": true
+      },
+      {
+        "variante": "V@18",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 1.192008578817426,
+        "oddspath_ci95": [
+          0.177416971643722,
+          4.900616824703166
+        ],
+        "evidencia_predicha_conservadora": "BP4_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "Q@20",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.04568095148736435,
+        "oddspath_ci95": [
+          0.004071048241903236,
+          0.1484304062714166
+        ],
+        "evidencia_predicha_conservadora": "BP4_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "T@45",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 8234.344312909818,
+        "oddspath_ci95": [
+          570.90429594944,
+          349999.6499899356
+        ],
+        "evidencia_predicha_conservadora": "PP3_VeryStrong",
+        "acierta": true
+      },
+      {
+        "variante": "N@46",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 800.7776292957267,
+        "oddspath_ci95": [
+          91.21397860543156,
+          39454.54914169316
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "E@60",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.5158295207627238,
+        "oddspath_ci95": [
+          0.06966115561496174,
+          1.778313530349586
+        ],
+        "evidencia_predicha_conservadora": "sin_evidencia",
+        "acierta": false
+      },
+      {
+        "variante": "M@63",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.24272784124357988,
+        "oddspath_ci95": [
+          0.028765263416826645,
+          0.7762343932621136
+        ],
+        "evidencia_predicha_conservadora": "sin_evidencia",
+        "acierta": true
+      },
+      {
+        "variante": "R@100",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.04997401421549163,
+        "oddspath_ci95": [
+          0.004528715626550405,
+          0.16222837891210784
+        ],
+        "evidencia_predicha_conservadora": "BP4_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "K@485",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.09043765539332113,
+        "oddspath_ci95": [
+          0.00909766028833643,
+          0.2782404567268335
+        ],
+        "evidencia_predicha_conservadora": "BP4_Supporting",
+        "acierta": true
+      },
+      {
+        "variante": "A@511",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.09965035514940546,
+        "oddspath_ci95": [
+          0.010183798622788738,
+          0.3073878334354577
+        ],
+        "evidencia_predicha_conservadora": "BP4_Supporting",
+        "acierta": true
+      },
+      {
+        "variante": "M@511",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.4037406351883594,
+        "oddspath_ci95": [
+          0.052033335246979694,
+          1.3429187725479002
+        ],
+        "evidencia_predicha_conservadora": "sin_evidencia",
+        "acierta": false
+      },
+      {
+        "variante": "E@534",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.0817242844204807,
+        "oddspath_ci95": [
+          0.008068870507791316,
+          0.2523326906425054
+        ],
+        "evidencia_predicha_conservadora": "BP4_Supporting",
+        "acierta": true
+      },
+      {
+        "variante": "E@541",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.03214805879591721,
+        "oddspath_ci95": [
+          0.002664393448676784,
+          0.10668023969536614
+        ],
+        "evidencia_predicha_conservadora": "BP4_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "L@563",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.16289993753923498,
+        "oddspath_ci95": [
+          0.01819560342374693,
+          0.5130880343763637
+        ],
+        "evidencia_predicha_conservadora": "sin_evidencia",
+        "acierta": true
+      },
+      {
+        "variante": "D@570",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.03715834228631129,
+        "oddspath_ci95": [
+          0.0031492096857848443,
+          0.12187493875054886
+        ],
+        "evidencia_predicha_conservadora": "BP4_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "I@571",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.14101370389450696,
+        "oddspath_ci95": [
+          0.01541649929015374,
+          0.4352473078944182
+        ],
+        "evidencia_predicha_conservadora": "BP4_Supporting",
+        "acierta": true
+      },
+      {
+        "variante": "V@590",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.050416063757356994,
+        "oddspath_ci95": [
+          0.0045749521828914,
+          0.16352169390389745
+        ],
+        "evidencia_predicha_conservadora": "BP4_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "S@597",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.03935473314223389,
+        "oddspath_ci95": [
+          0.0033838408881823817,
+          0.12883104909887258
+        ],
+        "evidencia_predicha_conservadora": "BP4_Moderate",
+        "acierta": true
+      },
+      {
+        "variante": "I@622",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.16793262103652365,
+        "oddspath_ci95": [
+          0.018803794519625085,
+          0.530896994952147
+        ],
+        "evidencia_predicha_conservadora": "sin_evidencia",
+        "acierta": true
+      },
+      {
+        "variante": "S@692",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.9091917348601519,
+        "oddspath_ci95": [
+          0.13207855982564604,
+          3.4602756031203215
+        ],
+        "evidencia_predicha_conservadora": "PP3_Supporting",
+        "acierta": false
+      },
+      {
+        "variante": "S@775",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.7664814120689091,
+        "oddspath_ci95": [
+          0.10942408004917377,
+          2.8322546144228262
+        ],
+        "evidencia_predicha_conservadora": "PP3_Supporting",
+        "acierta": false
+      },
+      {
+        "variante": "L@815",
+        "direccion_real": "patogenico",
+        "oddspath_puntual": 3421.883784573094,
+        "oddspath_ci95": [
+          289.17919608368896,
+          278891.3311895317
+        ],
+        "evidencia_predicha_conservadora": "PP3_Strong",
+        "acierta": true
+      },
+      {
+        "variante": "A@857",
+        "direccion_real": "benigno",
+        "oddspath_puntual": 0.04715243607329059,
+        "oddspath_ci95": [
+          0.004233538379822481,
+          0.15293014831999283
+        ],
+        "evidencia_predicha_conservadora": "BP4_Moderate",
+        "acierta": true
+      }
+    ]
+  }
+}

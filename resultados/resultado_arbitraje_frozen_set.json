@@ -1,0 +1,558 @@
+{
+  "MSH6": {
+    "gene": "MSH6",
+    "n_evaluables": 19,
+    "n_discordantes": 0,
+    "n_gana_oficial": 0,
+    "n_gana_esm": 0,
+    "n_no_concluyente": 0,
+    "detalle": [
+      {
+        "variante": "220D",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.000185,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "340S",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.000156,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "468H",
+        "oficial": "benigno",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 0.49,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "509A",
+        "oficial": "patogenico",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 0.000179,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "800L",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.000203,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "922Q",
+        "oficial": "benigno",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 0.000255,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "1163V",
+        "oficial": "sin_evidencia",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 0.000215,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "1304K",
+        "oficial": "benigno",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 0.000243,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "1329L",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.000213,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "398E",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 25700.0,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "482P",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 7590.0,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "541R",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 16600.0,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "686D",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 10200.0,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "706S",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 20600.0,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "1055P",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 32400.0,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "1058H",
+        "oficial": "patogenico",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 4070.0,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "1076C",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 120.0,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "1211P",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 1260.0,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "1334Q",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 7940.0,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      }
+    ]
+  },
+  "PMS2": {
+    "gene": "PMS2",
+    "n_evaluables": 48,
+    "n_discordantes": 1,
+    "n_gana_oficial": 0,
+    "n_gana_esm": 1,
+    "n_no_concluyente": 0,
+    "detalle": [
+      {
+        "variante": "28F",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 14.29,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "48V",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 18.84,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "56P",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 12.99,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "56Q",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 16.92,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "74E",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 18.84,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "89A",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 16.09,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "92N",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 14.61,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "111P",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 18.52,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "168E",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 18.84,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "169S",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 17.7,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "169H",
+        "oficial": "sin_evidencia",
+        "esm2": "patogenico",
+        "oddspath_funcional": 20.16,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "618P",
+        "oficial": "patogenico",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 5.05,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "680D",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 20.16,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "690E",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 2.54,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "707N",
+        "oficial": "patogenico",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 12.07,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "742I",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 19.83,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "749K",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 18.42,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "751S",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 21.1,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "812G",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 20.39,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "815P",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 12.25,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "822P",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 20.86,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "831S",
+        "oficial": "benigno",
+        "esm2": "patogenico",
+        "oddspath_funcional": 22.31,
+        "verdad_funcional": "patogenico",
+        "discordan": true
+      },
+      {
+        "variante": "834T",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 20.98,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "844H",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 20.98,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "845R",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 19.94,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "847W",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 22.06,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "850R",
+        "oficial": "sin_evidencia",
+        "esm2": "patogenico",
+        "oddspath_funcional": 21.44,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "850K",
+        "oficial": "sin_evidencia",
+        "esm2": "patogenico",
+        "oddspath_funcional": 22.57,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "18V",
+        "oficial": "sin_evidencia",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 0.38,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "20Q",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.08,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "45T",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 19.27,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "46N",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 10.97,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "60E",
+        "oficial": "benigno",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 0.04,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "63M",
+        "oficial": "benigno",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 0.07,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "100R",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.01,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "485K",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.02,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "511A",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.08,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "511M",
+        "oficial": "benigno",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 0.1,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "534E",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.15,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "563L",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.04,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "570D",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.11,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "571I",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.06,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "597S",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.04,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "622I",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.03,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "692S",
+        "oficial": "benigno",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 0.32,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "775S",
+        "oficial": "sin_evidencia",
+        "esm2": "sin_evidencia",
+        "oddspath_funcional": 0.09,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      },
+      {
+        "variante": "815L",
+        "oficial": "patogenico",
+        "esm2": "patogenico",
+        "oddspath_funcional": 20.98,
+        "verdad_funcional": "patogenico",
+        "discordan": false
+      },
+      {
+        "variante": "857A",
+        "oficial": "benigno",
+        "esm2": "benigno",
+        "oddspath_funcional": 0.14,
+        "verdad_funcional": "benigno",
+        "discordan": false
+      }
+    ]
+  }
+}

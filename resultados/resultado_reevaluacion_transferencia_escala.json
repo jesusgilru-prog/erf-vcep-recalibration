@@ -1,0 +1,56 @@
+{
+  "H1_MSH6": {
+    "gene_huerfano": "MSH6",
+    "n": 5477,
+    "n_align": 4150,
+    "rho_esm650_solo": 0.8265547864137112,
+    "rho_esm3b_solo": 0.8246667788780663,
+    "rho_modelo_transferencia_base": 0.4456110850324397,
+    "p_base": 1.6468303152895997e-265,
+    "rho_ensemble": 0.7335737137304591,
+    "rho_alineamiento_directo": 0.46730940953575906,
+    "p_align": 3.149416333410916e-224,
+    "intraclase": {
+      "lado_patogenico (prior>0.5)": {
+        "n": 1894,
+        "rho_transfer": 0.3439150515590256,
+        "rho_esm650_solo": 0.4975641062404304
+      },
+      "lado_benigno (prior<=0.5)": {
+        "n": 3583,
+        "rho_transfer": 0.2205621104818657,
+        "rho_esm650_solo": 0.6741515060913745
+      }
+    },
+    "mejor_mecanismo_transferencia": 0.7335737137304591,
+    "mejor_solo": 0.8265547864137112,
+    "transferencia_bate_a_esm_solo": false
+  },
+  "H2_PMS2": {
+    "gene_huerfano": "PMS2",
+    "n": 5019,
+    "n_align": 1456,
+    "rho_esm650_solo": 0.7385640481148605,
+    "rho_esm3b_solo": 0.7803228984471408,
+    "rho_modelo_transferencia_base": 0.32829080598267946,
+    "p_base": 1.994828221101018e-126,
+    "rho_ensemble": 0.6598066824048053,
+    "rho_alineamiento_directo": 0.22269096560230703,
+    "p_align": 8.094967716261567e-18,
+    "intraclase": {
+      "lado_patogenico (prior>0.5)": {
+        "n": 1959,
+        "rho_transfer": 0.13440780583625558,
+        "rho_esm650_solo": 0.37674493994924485
+      },
+      "lado_benigno (prior<=0.5)": {
+        "n": 3060,
+        "rho_transfer": 0.22596691488752962,
+        "rho_esm650_solo": 0.5042922192693241
+      }
+    },
+    "mejor_mecanismo_transferencia": 0.6598066824048053,
+    "mejor_solo": 0.7803228984471408,
+    "transferencia_bate_a_esm_solo": false
+  }
+}

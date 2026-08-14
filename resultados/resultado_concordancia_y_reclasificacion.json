@@ -1,0 +1,106 @@
+{
+  "B2_auc_raras": {
+    "MSH6": {
+      "gene": "MSH6",
+      "n_raras": 126,
+      "n_pos": 66,
+      "n_neg": 60,
+      "auc_esm_raras": 0.9671717171717171,
+      "auc_oficial_raras": 0.976010101010101
+    },
+    "PMS2": {
+      "gene": "PMS2",
+      "n_raras": 53,
+      "n_pos": 25,
+      "n_neg": 28,
+      "auc_esm_raras": 0.9785714285714286,
+      "auc_oficial_raras": 0.9885714285714285
+    }
+  },
+  "B3_concordancia_codigos": {
+    "MSH6": {
+      "gene": "MSH6",
+      "n": 3722,
+      "tabla_contingencia": {
+        "PP3_Moderate": {
+          "PP3_Moderate": 328,
+          "sin_evidencia": 93,
+          "BP4_Supporting": 42,
+          "PP3_Supporting": 59
+        },
+        "PP3_Supporting": {
+          "sin_evidencia": 145,
+          "BP4_Supporting": 115,
+          "PP3_Moderate": 140,
+          "PP3_Supporting": 48
+        },
+        "BP4_Supporting": {
+          "BP4_Supporting": 1526,
+          "sin_evidencia": 158,
+          "PP3_Supporting": 9,
+          "PP3_Moderate": 17
+        },
+        "sin_evidencia": {
+          "BP4_Supporting": 431,
+          "PP3_Moderate": 149,
+          "sin_evidencia": 374,
+          "PP3_Supporting": 88
+        }
+      },
+      "n_coincidencia_exacta": 2276,
+      "pct_coincidencia_exacta": 61.149919398173026,
+      "n_discordancia_direccion_opuesta": 183,
+      "pct_discordancia_direccion_opuesta": 4.9167114454594305
+    },
+    "PMS2": {
+      "gene": "PMS2",
+      "n": 2368,
+      "tabla_contingencia": {
+        "PP3_Moderate": {
+          "PP3_Supporting": 82,
+          "PP3_Moderate": 391,
+          "sin_evidencia": 63,
+          "BP4_Supporting": 4
+        },
+        "PP3_Supporting": {
+          "sin_evidencia": 71,
+          "BP4_Supporting": 59,
+          "PP3_Supporting": 29,
+          "PP3_Moderate": 64
+        },
+        "BP4_Supporting": {
+          "BP4_Supporting": 623,
+          "PP3_Moderate": 77,
+          "sin_evidencia": 158,
+          "PP3_Supporting": 41
+        },
+        "sin_evidencia": {
+          "sin_evidencia": 188,
+          "PP3_Moderate": 91,
+          "BP4_Supporting": 377,
+          "PP3_Supporting": 50
+        }
+      },
+      "n_coincidencia_exacta": 1231,
+      "pct_coincidencia_exacta": 51.9847972972973,
+      "n_discordancia_direccion_opuesta": 181,
+      "pct_discordancia_direccion_opuesta": 7.643581081081081
+    }
+  },
+  "B4_reclasificacion": {
+    "MSH6": {
+      "gene": "MSH6",
+      "n_vus_total": 3809,
+      "n_bp4_supporting": 2114,
+      "n_bp4_mas_bs1_likely_benign": 0,
+      "pct_reclasificable_ahora": 0.0
+    },
+    "PMS2": {
+      "gene": "PMS2",
+      "n_vus_total": 2412,
+      "n_bp4_supporting": 1063,
+      "n_bp4_mas_bs1_likely_benign": 0,
+      "pct_reclasificable_ahora": 0.0
+    }
+  }
+}

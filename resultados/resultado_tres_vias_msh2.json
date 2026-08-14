@@ -1,0 +1,13 @@
+{
+  "n": 5193,
+  "rho_oficial_vs_esm2": 0.7496100228867046,
+  "p_oficial_vs_esm2": 0.0,
+  "rho_oficial_vs_real": 0.29571295490009747,
+  "p_oficial_vs_real": 2.6515140914080882e-105,
+  "rho_esm2_vs_real": 0.2796048724142525,
+  "p_esm2_vs_real": 6.873110295063765e-94,
+  "ic95_diferencia_concordancia_menos_acierto": [
+    0.44265670816687885,
+    0.496796471060333
+  ]
+}

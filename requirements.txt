@@ -1,0 +1,10 @@
+numpy
+scipy
+scikit-learn
+pandas
+matplotlib
+biopython
+torch
+transformers
+lightgbm
+peft

@@ -1,0 +1,218 @@
+{
+  "oficial": {
+    "CIMRA": {
+      "composicion": {
+        "mediana": 0.612154397223355,
+        "sd": 0.0861916024674044,
+        "p975": 0.7530118670965229,
+        "rango95": [
+          0.4188212669683257,
+          0.7530118670965229
+        ]
+      },
+      "alta_pureza": {
+        "mediana": 0.622262443438914,
+        "sd": 0.07148289961941727,
+        "p975": 0.7453297980621918,
+        "rango95": [
+          0.4667164809114823,
+          0.7453297980621918
+        ]
+      },
+      "observado": 0.65,
+      "rechaza_composicion": false,
+      "rechaza_pureza": false
+    },
+    "inCAMA": {
+      "composicion": {
+        "mediana": 0.6210526315789473,
+        "sd": 0.14902779716053863,
+        "p975": 0.8350877192982457,
+        "rango95": [
+          0.2596491228070175,
+          0.8350877192982457
+        ]
+      },
+      "alta_pureza": {
+        "mediana": 0.6456140350877193,
+        "sd": 0.12164790551529188,
+        "p975": 0.8293240157014489,
+        "rango95": [
+          0.356140350877193,
+          0.8293240157014489
+        ]
+      },
+      "observado": 0.698,
+      "rechaza_composicion": false,
+      "rechaza_pureza": false
+    },
+    "inequivocidad_absoluta": {
+      "rho_sin_filtrar": 0.29571295490009747,
+      "n_sin_filtrar": 5193,
+      "rho_solo_inequivocas": 0.25829419948625143,
+      "n_inequivocas": 4784
+    }
+  },
+  "ESM-2": {
+    "CIMRA": {
+      "composicion": {
+        "mediana": 0.545158371040724,
+        "sd": 0.09867907820526066,
+        "p975": 0.713393665158371,
+        "rango95": [
+          0.3262443438914027,
+          0.713393665158371
+        ]
+      },
+      "alta_pureza": {
+        "mediana": 0.5675113122171945,
+        "sd": 0.09246985707476502,
+        "p975": 0.7210859728506787,
+        "rango95": [
+          0.3611742081447964,
+          0.7210859728506787
+        ]
+      },
+      "observado": 0.767,
+      "rechaza_composicion": true,
+      "rechaza_pureza": true
+    },
+    "inCAMA": {
+      "composicion": {
+        "mediana": 0.5614035087719299,
+        "sd": 0.1645301014391721,
+        "p975": 0.8070175438596491,
+        "rango95": [
+          0.1754385964912281,
+          0.8070175438596491
+        ]
+      },
+      "alta_pureza": {
+        "mediana": 0.5929824561403508,
+        "sd": 0.15283117008218822,
+        "p975": 0.8157894736842105,
+        "rango95": [
+          0.22280701754385965,
+          0.8157894736842105
+        ]
+      },
+      "observado": 0.77,
+      "rechaza_composicion": false,
+      "rechaza_pureza": false
+    },
+    "inequivocidad_absoluta": {
+      "rho_sin_filtrar": 0.33949075663686334,
+      "n_sin_filtrar": 16749,
+      "rho_solo_inequivocas": 0.29977674024308576,
+      "n_inequivocas": 15284
+    }
+  },
+  "AlphaMissense": {
+    "CIMRA": {
+      "composicion": {
+        "mediana": 0.6787261740786157,
+        "sd": 0.06592426015064466,
+        "p975": 0.7884519669595497,
+        "rango95": [
+          0.5332898176070318,
+          0.7884519669595497
+        ]
+      },
+      "alta_pureza": {
+        "mediana": 0.6792162548245431,
+        "sd": 0.05345781614108626,
+        "p975": 0.77393069239578,
+        "rango95": [
+          0.5617434269145648,
+          0.77393069239578
+        ]
+      },
+      "observado": 0.774,
+      "rechaza_composicion": false,
+      "rechaza_pureza": true
+    },
+    "inCAMA": {
+      "composicion": {
+        "mediana": 0.6894736842105263,
+        "sd": 0.11527679524408359,
+        "p975": 0.856140350877193,
+        "rango95": [
+          0.4052631578947368,
+          0.856140350877193
+        ]
+      },
+      "alta_pureza": {
+        "mediana": 0.7025011646006489,
+        "sd": 0.08984335449257498,
+        "p975": 0.8456140350877193,
+        "rango95": [
+          0.4905441455123645,
+          0.8456140350877193
+        ]
+      },
+      "observado": 0.605,
+      "rechaza_composicion": false,
+      "rechaza_pureza": false
+    },
+    "inequivocidad_absoluta": {
+      "rho_sin_filtrar": 0.35140532740875124,
+      "n_sin_filtrar": 5206,
+      "rho_solo_inequivocas": 0.30219791587418304,
+      "n_inequivocas": 4795
+    }
+  },
+  "ESM-1v": {
+    "CIMRA": {
+      "composicion": {
+        "mediana": 0.6258823529411764,
+        "sd": 0.08137905076877829,
+        "p975": 0.7594570135746607,
+        "rango95": [
+          0.44162443438914034,
+          0.7594570135746607
+        ]
+      },
+      "alta_pureza": {
+        "mediana": 0.6040271493212669,
+        "sd": 0.07241961905737787,
+        "p975": 0.7277850678733029,
+        "rango95": [
+          0.4440701357466063,
+          0.7277850678733029
+        ]
+      },
+      "observado": 0.743,
+      "rechaza_composicion": false,
+      "rechaza_pureza": true
+    },
+    "inCAMA": {
+      "composicion": {
+        "mediana": 0.6403508771929824,
+        "sd": 0.13804446435992151,
+        "p975": 0.8403508771929825,
+        "rango95": [
+          0.30526315789473685,
+          0.8403508771929825
+        ]
+      },
+      "alta_pureza": {
+        "mediana": 0.6368421052631579,
+        "sd": 0.11896867363441241,
+        "p975": 0.8140350877192982,
+        "rango95": [
+          0.3456140350877193,
+          0.8140350877192982
+        ]
+      },
+      "observado": 0.546,
+      "rechaza_composicion": false,
+      "rechaza_pureza": false
+    },
+    "inequivocidad_absoluta": {
+      "rho_sin_filtrar": 0.4001758980687765,
+      "n_sin_filtrar": 16749,
+      "rho_solo_inequivocas": 0.35706246034899175,
+      "n_inequivocas": 15284
+    }
+  }
+}

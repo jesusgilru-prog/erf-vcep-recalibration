@@ -1,0 +1,43 @@
+{
+  "MSH6": {
+    "gene": "MSH6",
+    "transcrito_esperado": "NM_000179",
+    "distribucion_accession": {
+      "NM_000179": 10439,
+      "SIN_NM": 38,
+      "NM_001406801": 2
+    },
+    "n_vus_con_prior": 3722,
+    "desglose_review_status_vus_con_prior": {
+      "criteria provided, single submitter": 1823,
+      "criteria provided, multiple submitters, no conflicts": 1891,
+      "no assertion criteria provided": 7,
+      "reviewed by expert panel": 1
+    },
+    "n_reviewed_by_expert_panel": 1,
+    "estructura_posicional_pms2": null
+  },
+  "PMS2": {
+    "gene": "PMS2",
+    "transcrito_esperado": "NM_000535",
+    "distribucion_accession": {
+      "NM_000535": 5990,
+      "SIN_NM": 62,
+      "NM_001406873": 1
+    },
+    "n_vus_con_prior": 2368,
+    "desglose_review_status_vus_con_prior": {
+      "criteria provided, multiple submitters, no conflicts": 1203,
+      "criteria provided, single submitter": 1162,
+      "no assertion criteria provided": 3
+    },
+    "n_reviewed_by_expert_panel": 0,
+    "estructura_posicional_pms2": {
+      "frontera_pms2cl": 620,
+      "n_posiciones_nterm": 598,
+      "cobertura_nterm": 0.9832775919732442,
+      "n_posiciones_cterm": 237,
+      "cobertura_cterm": 1.0
+    }
+  }
+}

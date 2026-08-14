@@ -1,0 +1,495 @@
+{
+  "H1": {
+    "gene_huerfano": "MSH6",
+    "gene_rico": "MSH2",
+    "n_calibracion_patogenicas": 34,
+    "n_calibracion_benignas": 10,
+    "aciertos": 10,
+    "total": 16,
+    "tasa_acierto": 0.625,
+    "cumple_criterio_b_70pct": false,
+    "detalle": [
+      {
+        "variante": "R468H",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 84.7281047578267,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "V800L",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 12.320218465424512,
+        "evidencia_predicha": "PS3_Moderate",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "R922Q",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 21.149949788885184,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "E1163V",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 16.40941446456379,
+        "evidencia_predicha": "PS3_Moderate",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "R1304K",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 14.828341924123182,
+        "evidencia_predicha": "PS3_Moderate",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "S1329L",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 13.718713454056235,
+        "evidencia_predicha": "PS3_Moderate",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "V398E",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 81.8507897204339,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "R482P",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 24.81491308050865,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "S541R",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 343.8047555405386,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "G686D",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 91.62396254324351,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "F706S",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 27.972308963013393,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "A1055P",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 38.09342887002989,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "D1058H",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 17.74798725092212,
+        "evidencia_predicha": "PS3_Moderate",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "R1076C",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 23.888069213632935,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "L1211P",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 1212.49352868274,
+        "evidencia_predicha": "PS3_VeryStrong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "R1334Q",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 12.71368992967951,
+        "evidencia_predicha": "PS3_Moderate",
+        "acierta_direccion": true
+      }
+    ]
+  },
+  "H2": {
+    "gene_huerfano": "PMS2",
+    "gene_rico": "MLH1",
+    "n_calibracion_patogenicas": 22,
+    "n_calibracion_benignas": 5,
+    "aciertos": 31,
+    "total": 51,
+    "tasa_acierto": 0.6078431372549019,
+    "cumple_criterio_b_70pct": false,
+    "detalle": [
+      {
+        "variante": "S28F",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 39.68134249424643,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "D48V",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 40.93205346560765,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "L56P",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 42.75219025309999,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "L56Q",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 42.09185009580334,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "G74E",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 40.39997178048966,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "T89A",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 38.90802785318371,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "I92N",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 42.860974039522404,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "L111P",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 45.01124550659252,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "V168E",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 43.93558535087883,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "R169S",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 39.36870177957465,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "R169H",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 39.180987164806496,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "L618P",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 42.535636716936466,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "G680D",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 41.68888778224679,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "K690E",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 39.28248479909006,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "Y707N",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 44.03435302372428,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "N742I",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 40.5632615866773,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "N749K",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 37.83671678089529,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "F751S",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 38.27226836345986,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "C812G",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 40.57492487802309,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "S815P",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 41.53132961602152,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "L822P",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 45.472155548969745,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "I831S",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 43.15006919926798,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "M834T",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 42.20638446951677,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "P844H",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 43.94992827222178,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "H845R",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 39.819596650199465,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "R847W",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 40.54495960805144,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "M850R",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 42.03441334920594,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "M850K",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 42.068343808977176,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "S6T",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 38.93260062859606,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "I18V",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 39.25685240830981,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "R20Q",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 42.119334530701366,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "N45T",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 38.875107997100606,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "S46N",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 40.06962755954028,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "D60E",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 38.492858673950316,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "V63M",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 39.1533587637015,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "Q100R",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 39.22227840199634,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "T485K",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 39.69895686698413,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "T511A",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 39.01636446659917,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "T511M",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 38.664383008587386,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "D534E",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 38.9692671053154,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "K541E",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 39.13523617689013,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "R563L",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 38.44098496921558,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "N570D",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 38.66173194588073,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "L571I",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 38.60622792091329,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "I590V",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 38.644129392013035,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "T597S",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 39.12223609776701,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "M622I",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 39.92479434116221,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "N692S",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 40.49676641900833,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "N775S",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 41.30152694358158,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      },
+      {
+        "variante": "S815L",
+        "direccion_real": "patogenico",
+        "oddspath_predicho": 38.907201869160524,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": true
+      },
+      {
+        "variante": "G857A",
+        "direccion_real": "benigno",
+        "oddspath_predicho": 39.274327266112074,
+        "evidencia_predicha": "PS3_Strong",
+        "acierta_direccion": false
+      }
+    ]
+  }
+}

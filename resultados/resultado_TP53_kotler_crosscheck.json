@@ -1,0 +1,71 @@
+{
+  "gmm_medias": [
+    0.2347742056682923,
+    -2.288836865113059
+  ],
+  "gmm_pesos": [
+    0.3526290820869488,
+    0.6473709179130512
+  ],
+  "n_total": 2967,
+  "n_inequivoca": 2856,
+  "n_ambigua": 111,
+  "tramos": {
+    "BP4 (umbral<=-0.008)": {
+      "duro": {
+        "n_pat": 812,
+        "n_ben": 1492,
+        "tpr": 0.21182266009852216,
+        "fpr": 0.19571045576407506,
+        "lr_puntual": 0.9239354074443544,
+        "ic95": [
+          0.7853332525801787,
+          1.0932152576714678
+        ],
+        "n_boot_validos": 10000,
+        "nominal_esperado": 2.08
+      },
+      "blando_ambigua": {
+        "n_ambigua": 85,
+        "peso_patho_total": 42.932898518427336,
+        "peso_ben_total": 42.067101481572664,
+        "lr_puntual": 0.9361459507206108,
+        "ic95": [
+          0.6012474281201136,
+          1.4439238267998524
+        ],
+        "n_boot_validos": 10000,
+        "nominal_esperado": 2.08,
+        "ic_incluye_1": true
+      }
+    },
+    "PP3 (umbral>=0.16)": {
+      "duro": {
+        "n_pat": 812,
+        "n_ben": 1492,
+        "tpr": 0.49261083743842365,
+        "fpr": 0.5227882037533512,
+        "lr_puntual": 0.9422761146899078,
+        "ic95": [
+          0.8645490375561251,
+          1.023512625734252
+        ],
+        "n_boot_validos": 10000,
+        "nominal_esperado": 2.08
+      },
+      "blando_ambigua": {
+        "n_ambigua": 85,
+        "peso_patho_total": 42.932898518427336,
+        "peso_ben_total": 42.067101481572664,
+        "lr_puntual": 0.9249899910291066,
+        "ic95": [
+          0.7076729662917219,
+          1.1961039797107385
+        ],
+        "n_boot_validos": 10000,
+        "nominal_esperado": 2.08,
+        "ic_incluye_1": true
+      }
+    }
+  }
+}

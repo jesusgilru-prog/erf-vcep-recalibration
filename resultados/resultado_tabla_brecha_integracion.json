@@ -1,0 +1,202 @@
+{
+  "fecha_consulta": "2026-08-10",
+  "busqueda_esquema_myvariant": {
+    "mapp": {},
+    "prior": {},
+    "hci": {}
+  },
+  "muestra_variante_a_variante": [
+    {
+      "gene": "MSH6",
+      "variante": "Y8F",
+      "prior_p_oficial_lovd": 1.82e-05,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": true,
+      "clinical_significance_clinvar": "Uncertain significance",
+      "myvariant_consultado": true,
+      "prior_o_mapp_encontrado_myvariant": "NINGUNO"
+    },
+    {
+      "gene": "MSH6",
+      "variante": "P320S",
+      "prior_p_oficial_lovd": 0.001,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": true,
+      "clinical_significance_clinvar": "Uncertain significance",
+      "myvariant_consultado": true,
+      "prior_o_mapp_encontrado_myvariant": "NINGUNO"
+    },
+    {
+      "gene": "MSH6",
+      "variante": "A1198G",
+      "prior_p_oficial_lovd": 0.0024,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": true,
+      "clinical_significance_clinvar": "Uncertain significance",
+      "myvariant_consultado": true,
+      "prior_o_mapp_encontrado_myvariant": "NINGUNO"
+    },
+    {
+      "gene": "MSH6",
+      "variante": "M662L",
+      "prior_p_oficial_lovd": 0.0064,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": true,
+      "clinical_significance_clinvar": "Uncertain significance",
+      "myvariant_consultado": true,
+      "prior_o_mapp_encontrado_myvariant": "NINGUNO"
+    },
+    {
+      "gene": "MSH6",
+      "variante": "E1120D",
+      "prior_p_oficial_lovd": 0.021,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": true,
+      "clinical_significance_clinvar": "Uncertain significance",
+      "myvariant_consultado": true,
+      "prior_o_mapp_encontrado_myvariant": "NINGUNO"
+    },
+    {
+      "gene": "MSH6",
+      "variante": "M703I",
+      "prior_p_oficial_lovd": 0.0893,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": false,
+      "myvariant_consultado": false,
+      "prior_o_mapp_encontrado_myvariant": null
+    },
+    {
+      "gene": "MSH6",
+      "variante": "V808G",
+      "prior_p_oficial_lovd": 0.2929,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": false,
+      "myvariant_consultado": false,
+      "prior_o_mapp_encontrado_myvariant": null
+    },
+    {
+      "gene": "MSH6",
+      "variante": "E544Q",
+      "prior_p_oficial_lovd": 0.6858,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": false,
+      "myvariant_consultado": false,
+      "prior_o_mapp_encontrado_myvariant": null
+    },
+    {
+      "gene": "MSH6",
+      "variante": "D1171Y",
+      "prior_p_oficial_lovd": 0.8784,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": false,
+      "myvariant_consultado": false,
+      "prior_o_mapp_encontrado_myvariant": null
+    },
+    {
+      "gene": "MSH6",
+      "variante": "G520R",
+      "prior_p_oficial_lovd": 0.976,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": false,
+      "myvariant_consultado": false,
+      "prior_o_mapp_encontrado_myvariant": null
+    },
+    {
+      "gene": "PMS2",
+      "variante": "V200I",
+      "prior_p_oficial_lovd": 1.77e-05,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": true,
+      "clinical_significance_clinvar": "Conflicting classifications of pathogenicity",
+      "myvariant_consultado": true,
+      "prior_o_mapp_encontrado_myvariant": "NINGUNO"
+    },
+    {
+      "gene": "PMS2",
+      "variante": "I584F",
+      "prior_p_oficial_lovd": 0.0008,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": false,
+      "myvariant_consultado": false,
+      "prior_o_mapp_encontrado_myvariant": null
+    },
+    {
+      "gene": "PMS2",
+      "variante": "P540H",
+      "prior_p_oficial_lovd": 0.0019,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": true,
+      "clinical_significance_clinvar": "Uncertain significance",
+      "myvariant_consultado": true,
+      "prior_o_mapp_encontrado_myvariant": "NINGUNO"
+    },
+    {
+      "gene": "PMS2",
+      "variante": "A636P",
+      "prior_p_oficial_lovd": 0.0058,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": false,
+      "myvariant_consultado": false,
+      "prior_o_mapp_encontrado_myvariant": null
+    },
+    {
+      "gene": "PMS2",
+      "variante": "N575I",
+      "prior_p_oficial_lovd": 0.0508,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": false,
+      "myvariant_consultado": false,
+      "prior_o_mapp_encontrado_myvariant": null
+    },
+    {
+      "gene": "PMS2",
+      "variante": "M806L",
+      "prior_p_oficial_lovd": 0.2823,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": true,
+      "clinical_significance_clinvar": "Uncertain significance",
+      "myvariant_consultado": true,
+      "prior_o_mapp_encontrado_myvariant": "NINGUNO"
+    },
+    {
+      "gene": "PMS2",
+      "variante": "M850K",
+      "prior_p_oficial_lovd": 0.6542,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": false,
+      "myvariant_consultado": false,
+      "prior_o_mapp_encontrado_myvariant": null
+    },
+    {
+      "gene": "PMS2",
+      "variante": "H852N",
+      "prior_p_oficial_lovd": 0.8248,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": true,
+      "clinical_significance_clinvar": "Uncertain significance",
+      "myvariant_consultado": true,
+      "prior_o_mapp_encontrado_myvariant": "NINGUNO"
+    },
+    {
+      "gene": "PMS2",
+      "variante": "H24L",
+      "prior_p_oficial_lovd": 0.9136,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": true,
+      "clinical_significance_clinvar": "Uncertain significance",
+      "myvariant_consultado": true,
+      "prior_o_mapp_encontrado_myvariant": "NINGUNO"
+    },
+    {
+      "gene": "PMS2",
+      "variante": "G82R",
+      "prior_p_oficial_lovd": 0.9761,
+      "fecha_consulta": "2026-08-10",
+      "en_clinvar": false,
+      "myvariant_consultado": false,
+      "prior_o_mapp_encontrado_myvariant": null
+    }
+  ],
+  "n_con_campo_prior_mapp_en_myvariant": 0,
+  "conclusion": "El campo MAPP/PP2 Prior P no aparece en el esquema de myvariant.info (busqueda de metadatos vacia para 'mapp'/'prior') ni en ninguna de las 20 consultas variante a variante muestreadas. ClinVar (variant_summary.txt) no tiene ninguna columna relacionada (ver cabecera completa en el repo)."
+}

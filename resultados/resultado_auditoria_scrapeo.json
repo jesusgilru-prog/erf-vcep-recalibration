@@ -1,0 +1,36 @@
+{
+  "MSH6": {
+    "select_db": "MSH6_priors",
+    "paginas_muestreadas": [
+      1,
+      2,
+      8,
+      43,
+      47,
+      62,
+      75,
+      92
+    ],
+    "filas_comparadas_parser_A_vs_B": 689,
+    "filas_coincidentes_A_vs_B": 689,
+    "pct_coincidencia": 100.0,
+    "discrepancias": []
+  },
+  "PMS2": {
+    "select_db": "PMS2_priors",
+    "paginas_muestreadas": [
+      1,
+      2,
+      5,
+      15,
+      21,
+      27,
+      28,
+      30
+    ],
+    "filas_comparadas_parser_A_vs_B": 780,
+    "filas_coincidentes_A_vs_B": 780,
+    "pct_coincidencia": 100.0,
+    "discrepancias": []
+  }
+}

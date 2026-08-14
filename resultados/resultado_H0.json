@@ -1,0 +1,33 @@
+{
+  "n_mlh1_train": 4563,
+  "n_msh2_holdout": 16749,
+  "mlh1_cv_5fold_spearman_mean": 0.6485090932702992,
+  "mlh1_cv_5fold_spearman_por_fold": [
+    0.6518248954995033,
+    0.6310733548035284,
+    0.6611552635629493,
+    0.6179914325524808,
+    0.6805005199330337
+  ],
+  "h0_msh2_spearman_rho": 0.1726428057468164,
+  "h0_msh2_spearman_ci95": [
+    0.15776068453939476,
+    0.18822612799652325
+  ],
+  "h0_msh2_nulo_empirico_media": -1.6054481161796837e-05,
+  "h0_msh2_nulo_empirico_ci95": [
+    -0.015485299226341512,
+    0.015516716125720465
+  ],
+  "h0_supera_nulo_empirico": true,
+  "baseline_solo_esm_ridge_spearman": 0.29640251766960696,
+  "control21_solo_blosum62_spearman": -0.1635078345936805,
+  "seed": 20260805,
+  "features": [
+    "esm2_3B_zeroshot",
+    "blosum62",
+    "delta_hidrofobicidad",
+    "delta_volumen",
+    "plddt"
+  ]
+}

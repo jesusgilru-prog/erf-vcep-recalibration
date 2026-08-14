@@ -1,0 +1,26 @@
+{
+  "MSH6": {
+    "n": 17,
+    "rho_esm650": 0.7549019607843138,
+    "rho_esm3b": 0.6299019607843138,
+    "rho_transfer": 0.38480392156862747,
+    "rho_ensemble_650_transfer": 0.6531409780858203,
+    "rho_ensemble_3b_transfer": 0.5226997799691194,
+    "rho_ensemble_todos": 0.6572656048385167,
+    "mejor_solo": 0.7549019607843138,
+    "mejor_ensemble": 0.6572656048385167,
+    "ensemble_gana": false
+  },
+  "PMS2": {
+    "n": 51,
+    "rho_esm650": 0.766765554799315,
+    "rho_esm3b": 0.8196818387334551,
+    "rho_transfer": 0.4288980241881758,
+    "rho_ensemble_650_transfer": 0.7278036973610459,
+    "rho_ensemble_3b_transfer": 0.7427607615221877,
+    "rho_ensemble_todos": 0.7708555096449263,
+    "mejor_solo": 0.8196818387334551,
+    "mejor_ensemble": 0.7708555096449263,
+    "ensemble_gana": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "MSH2": {
+    "gene": "MSH2",
+    "n_am": 5473,
+    "rho_am_vs_oficial": 0.805749415826392,
+    "n_am_of": 5460,
+    "rho_am_vs_esm2": 0.8109924966088348,
+    "n_am_esm": 5473
+  },
+  "MSH6": {
+    "gene": "MSH6",
+    "n_am": 7965,
+    "rho_am_vs_oficial": 0.8237527113004409,
+    "n_am_of": 7828,
+    "rho_am_vs_esm2": 0.8328844463378257,
+    "n_am_esm": 7965
+  },
+  "PMS2": {
+    "gene": "PMS2",
+    "n_am": 5081,
+    "rho_am_vs_oficial": 0.8428248787188245,
+    "n_am_of": 5015,
+    "rho_am_vs_esm2": 0.7807969146337896,
+    "n_am_esm": 5081
+  },
+  "MSH2_vs_verdad_real": {
+    "rho_am_vs_real": 0.35140532740875124,
+    "n": 5206
+  }
+}

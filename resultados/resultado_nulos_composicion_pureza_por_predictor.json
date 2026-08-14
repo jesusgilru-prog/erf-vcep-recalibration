@@ -1,0 +1,106 @@
+{
+  "oficial": {
+    "n_base": 5193,
+    "composicion": {
+      "mediana": 0.612909794496109,
+      "p975": 0.7494266120437431,
+      "rango95": [
+        0.40842077619083544,
+        0.7494266120437431
+      ],
+      "observado_cimra": 0.65,
+      "rechaza": false
+    },
+    "alta_pureza": {
+      "mediana": 0.6226511185686349,
+      "p975": 0.7421370571753785,
+      "rango95": [
+        0.45312928642465816,
+        0.7421370571753785
+      ],
+      "observado_cimra": 0.65,
+      "rechaza": false,
+      "n_benigno_pureza": 1616,
+      "n_danino_pureza": 235
+    }
+  },
+  "ESM-2": {
+    "n_base": 16749,
+    "composicion": {
+      "mediana": 0.5442533936651583,
+      "p975": 0.7136764705882351,
+      "rango95": [
+        0.32394343891402716,
+        0.7136764705882351
+      ],
+      "observado_cimra": 0.767,
+      "rechaza": true
+    },
+    "alta_pureza": {
+      "mediana": 0.5635746606334842,
+      "p975": 0.7171108597285066,
+      "rango95": [
+        0.36207918552036195,
+        0.7171108597285066
+      ],
+      "observado_cimra": 0.767,
+      "rechaza": true,
+      "n_benigno_pureza": 4851,
+      "n_danino_pureza": 1053
+    }
+  },
+  "AlphaMissense": {
+    "n_base": 5206,
+    "composicion": {
+      "mediana": 0.6785084012045716,
+      "p975": 0.7887250192904592,
+      "rango95": [
+        0.5300822767339827,
+        0.7887250192904592
+      ],
+      "observado_cimra": 0.774,
+      "rechaza": false
+    },
+    "alta_pureza": {
+      "mediana": 0.6800986476939022,
+      "p975": 0.7716758842178321,
+      "rango95": [
+        0.561132728095013,
+        0.7716758842178321
+      ],
+      "observado_cimra": 0.774,
+      "rechaza": true,
+      "n_benigno_pureza": 1622,
+      "n_danino_pureza": 235
+    }
+  },
+  "ESM-1v": {
+    "n_base": 16749,
+    "composicion": {
+      "mediana": 0.6261085972850678,
+      "p975": 0.7601923076923076,
+      "rango95": [
+        0.4442352941176471,
+        0.7601923076923076
+      ],
+      "observado_cimra": 0.743,
+      "rechaza": false
+    },
+    "alta_pureza": {
+      "mediana": 0.6073303167420814,
+      "p975": 0.723893665158371,
+      "rango95": [
+        0.440972850678733,
+        0.723893665158371
+      ],
+      "observado_cimra": 0.743,
+      "rechaza": true,
+      "n_benigno_pureza": 4851,
+      "n_danino_pureza": 1053
+    }
+  },
+  "resumen": {
+    "n_rechaza_composicion": 1,
+    "n_rechaza_alta_pureza": 3
+  }
+}
