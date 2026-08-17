@@ -2,7 +2,7 @@
 Replica en TP53 (Li-Fraumeni, fuera de la familia MMR) el analisis central del
 proyecto: concordancia entre predictores vs acierto real contra DMS, AUC contra
 extremos clinicos ClinVar, y recalibracion LR en la region ambigua (E-RF),
-usando la herramienta oficial VCEP-citada real para TP53 (BayesDel_addAF,
+usando la herramienta oficial VCEP-citada real para TP53 (BayesDel_noAF,
 especificacion GN009 v2.4, verificada via cspec.genome.network) en vez de
 MAPP/PP2. Requiere que ESM-2/ESM-1v de TP53 ya esten calculados (codigo/53_).
 
@@ -142,7 +142,7 @@ def bootstrap_ci_rho(y1, y2, seed, n_boot=2000):
 
 def main():
     real = cargar_dms()
-    oficial = cargar_bayesdel()  # herramienta VCEP-citada real: BayesDel_addAF
+    oficial = cargar_bayesdel()  # herramienta VCEP-citada real: BayesDel_noAF
     esm2 = cargar_esm2()
     esm1v = cargar_esm1v()
     am = cargar_alphamissense()

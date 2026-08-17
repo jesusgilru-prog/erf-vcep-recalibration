@@ -1,0 +1,28 @@
+{
+  "correccion": "bloqueante 2 SINTESIS 2026-08-17: PP3_Supporting GN137 recalculado como banda real (0.68, 0.81], no unilateral score>=0.68",
+  "n_inequivoca_cov": 4784,
+  "n_ambigua_cov": 409,
+  "duro": {
+    "n_pat": 377,
+    "n_ben": 4407,
+    "tpr": 0.08488063660477453,
+    "fpr": 0.0651236668935784,
+    "lr_puntual": 1.303376186471224,
+    "ic95": [
+      0.8799175158469806,
+      1.7985473699760268
+    ],
+    "n_boot_validos": 10000
+  },
+  "blando": {
+    "n_ambigua": 409,
+    "peso_patho_total": 149.18324863719613,
+    "peso_ben_total": 259.81675136280387,
+    "lr_puntual": 1.0529597461260025,
+    "ic95": [
+      0.7467386756743277,
+      1.4674499270535182
+    ],
+    "n_boot_validos": 10000
+  }
+}

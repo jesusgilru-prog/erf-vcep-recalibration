@@ -1,0 +1,12 @@
+{
+  "auc_dominio": 0.8401144310235221,
+  "ic95_dominio": [
+    0.7512613019783275,
+    0.9158653148122293
+  ],
+  "n_pat_dominio": 143,
+  "n_ben_dominio": 22,
+  "auc_todo_gen_contexto": 0.8931147540983606,
+  "n_pat_todo_gen": 150,
+  "n_ben_todo_gen": 183
+}
