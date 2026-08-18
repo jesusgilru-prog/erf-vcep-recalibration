@@ -33,6 +33,10 @@ CORTE_SUPPORTING = 2.08
 CORTE_MODERATE = 4.3
 
 
+OFFSET_DBD_A_P53_COMPLETO = 101  # Kotler usa numeracion LOCAL del DBD (1-191); verificado 100%
+# (191/191) contra P04637 con este offset (sin offset, solo 7.3% coincide -- ver PREREGISTRO.md).
+
+
 def cargar_kotler():
     scores = {}
     with open("/home/jesus/paper_msh6/datos/tp53_extension/tp53_kotler_growth_scores.csv") as f:
@@ -41,13 +45,14 @@ def cargar_kotler():
             m = re.match(r"^p\.([A-Za-z]{3})(\d+)([A-Za-z]{3})$", hgvs)
             if not m:
                 continue
-            aa1_3, pos, aa2_3 = m.groups()
+            aa1_3, pos_local, aa2_3 = m.groups()
             wt_aa, mut_aa = AA3_TO_1.get(aa1_3.capitalize()), AA3_TO_1.get(aa2_3.capitalize())
             if wt_aa is None or mut_aa is None or wt_aa == mut_aa:
                 continue
             if row["score"] in ("NA", ""):
                 continue
-            scores.setdefault((int(pos), mut_aa), []).append(float(row["score"]))
+            pos = int(pos_local) + OFFSET_DBD_A_P53_COMPLETO
+            scores.setdefault((pos, mut_aa), []).append(float(row["score"]))
     return {k: statistics.median(v) for k, v in scores.items()}
 
 
@@ -95,14 +100,15 @@ def main():
                  "n_total": len(keys), "n_inequivoca": len(keys_inequivoca),
                  "n_ambigua": len(keys_ambigua), "tramos": {}}
     tramos = [
-        ("BP4 (umbral<=-0.008)", "benigno", -0.008, CORTE_SUPPORTING),
-        ("PP3 (umbral>=0.16)", "patho", 0.16, CORTE_SUPPORTING),
+        ("BP4_Supporting (umbral<=-0.008)", "benigno", -0.008, CORTE_SUPPORTING),
+        ("BP4_Moderate (umbral<=-0.008)", "benigno", -0.008, CORTE_MODERATE),
+        ("PP3_Supporting_o_mas (umbral>=0.16)", "patho", 0.16, CORTE_SUPPORTING),
     ]
-    for etiqueta, direccion, umbral, nominal in tramos:
+    for idx, (etiqueta, direccion, umbral, nominal) in enumerate(tramos):
         ld = c52.lr_duro_con_ic(oficial, cov_inequivoca, y_hard_cov, umbral, direccion,
-                                 seed=RNG_SEED_BOOT + hash(etiqueta) % 10000)
+                                 seed=RNG_SEED_BOOT + idx * 2)
         lb = c52.lr_blando_con_ic(oficial, cov_ambigua, post_patho, post_ben, umbral, direccion,
-                                   seed=RNG_SEED_BOOT + 1 + hash(etiqueta) % 10000)
+                                   seed=RNG_SEED_BOOT + idx * 2 + 1)
         if ld is not None:
             ld["nominal_esperado"] = nominal
         lb["nominal_esperado"] = nominal
