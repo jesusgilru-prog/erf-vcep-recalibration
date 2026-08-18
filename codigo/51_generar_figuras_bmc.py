@@ -106,7 +106,6 @@ def fig2_concordancia_vs_acierto():
     axes[1].set_ylabel("DMS functional score (independent reference)")
     axes[1].set_title(f"(b) Accuracy: ESM-2 vs. DMS reference\n" + r"$\rho$" + f" = {rho_acc:.3f} (n={len(comun):,})")
 
-    fig.suptitle("Predictors agree with each other more than they match the independent functional reference (MSH2)", y=1.03, fontsize=10)
     fig.tight_layout()
     fig.savefig(f"{OUTDIR}/fig2_concordance_vs_accuracy.pdf", bbox_inches="tight")
     fig.savefig(f"{OUTDIR}/fig2_concordance_vs_accuracy.png", bbox_inches="tight")

@@ -12,6 +12,7 @@ Verdad funcional: Findlay et al. 2018 (saturation genome editing, cell
 survival), ya en datos/dataset_BRCA1_SGE.json (n=2086, 1954 dentro de los 3
 dominios).
 """
+import hashlib
 import importlib
 import json
 import sys
@@ -24,6 +25,10 @@ c52 = importlib.import_module("52_recalibracion_LR_funcional_erf")
 
 SEMILLA_GMM = 20260814
 RNG_SEED_BOOT = 20260815
+
+def _seed_det(s):
+    return int(hashlib.md5(s.encode('utf-8')).hexdigest(), 16) % 10000
+
 UMBRAL_POSTERIOR = 0.9
 CORTE_SUPPORTING = 2.08
 CORTE_MODERATE = 4.3
@@ -96,9 +101,9 @@ def main():
     ]
     for etiqueta, direccion, umbral, nominal in tramos:
         ld = c52.lr_duro_con_ic(oficial, cov_inequivoca, y_hard_cov, umbral, direccion,
-                                 seed=RNG_SEED_BOOT + hash(etiqueta) % 10000)
+                                 seed=RNG_SEED_BOOT + _seed_det(etiqueta) % 10000)
         lb = c52.lr_blando_con_ic(oficial, cov_ambigua, post_patho, post_ben, umbral, direccion,
-                                   seed=RNG_SEED_BOOT + 1 + hash(etiqueta) % 10000)
+                                   seed=RNG_SEED_BOOT + 1 + _seed_det(etiqueta) % 10000)
         if ld is not None:
             ld["nominal_esperado"] = nominal
             ld["alcanza_nominal_duro"] = bool(ld["lr_puntual"] >= nominal)

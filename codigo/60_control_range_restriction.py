@@ -22,6 +22,7 @@ nula, la restriccion de rango por si sola NO explica el colapso observado
 es indistinguible de la distribucion nula, no se puede descartar que el
 colapso sea (al menos en parte) artefacto de la definicion de region.
 """
+import hashlib
 import importlib
 import json
 import sys
@@ -35,6 +36,10 @@ c55 = importlib.import_module("55_analisis_completo_TP53")
 c57 = importlib.import_module("57_ERF_BRCA1")
 
 SEMILLA_BASE = 20260814
+
+def _seed_det(s):
+    return int(hashlib.md5(s.encode('utf-8')).hexdigest(), 16) % 10000
+
 UMBRAL_POSTERIOR = 0.9
 N_REPLICAS = 2000
 
@@ -124,7 +129,7 @@ def main():
         print(f"  region ambigua: n={len(cov_ambigua)}, fraccion positiva (umbral REAL)={frac_pos_real_amb:.3f}")
         print(f"  region inequivoca: n={len(cov_ineq)}, fraccion positiva (umbral REAL)={frac_pos_real_ineq:.3f}")
 
-        rng = np.random.default_rng(SEMILLA_BASE + hash(gen) % 10000)
+        rng = np.random.default_rng(SEMILLA_BASE + _seed_det(gen) % 10000)
         lrs_nulo_amb, lrs_nulo_ineq = [], []
         for _ in range(N_REPLICAS):
             ruido_amb = rng.standard_normal(len(z_y_amb))

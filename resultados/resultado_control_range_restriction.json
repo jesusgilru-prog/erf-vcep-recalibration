@@ -6,21 +6,21 @@
     "n_inequivoca": 4784,
     "frac_positiva_umbral_real_ambigua": 0.37897310513447435,
     "frac_positiva_umbral_real_inequivoca": 0.22512541806020067,
-    "nulo_ambiguo_lr_mediana": 1.0394493487763807,
+    "nulo_ambiguo_lr_mediana": 1.0433245872155634,
     "nulo_ambiguo_lr_ic95": [
-      0.9095396837465078,
-      1.1962294018932236
+      0.9089861576375124,
+      1.1874397295545456
     ],
     "nulo_inequivoco_lr_mediana": 2.099784718812554,
     "nulo_inequivoco_lr_ic95": [
-      1.804191152012418,
+      1.8331790066298752,
       2.3614147167487682
     ],
     "lr_real_ambiguo": 1.26,
     "lr_real_inequivoco": 4.29,
     "gap_real_ineq_menos_amb": 3.0300000000000002,
-    "gap_nulo_mediana_ineq_menos_amb": 1.0603353700361733,
-    "fraccion_nulo_ambiguo_menor_o_igual_que_real": 0.9975
+    "gap_nulo_mediana_ineq_menos_amb": 1.0564601315969906,
+    "fraccion_nulo_ambiguo_menor_o_igual_que_real": 0.998
   },
   "TP53": {
     "n_overlap": 5463,
@@ -29,21 +29,21 @@
     "n_inequivoca": 5042,
     "frac_positiva_umbral_real_ambigua": 0.6579572446555819,
     "frac_positiva_umbral_real_inequivoca": 0.3871479571598572,
-    "nulo_ambiguo_lr_mediana": 1.0154005280434868,
+    "nulo_ambiguo_lr_mediana": 1.0129995638316722,
     "nulo_ambiguo_lr_ic95": [
-      0.9410143891445623,
-      1.094105313183024
+      0.9394456359369462,
+      1.0890667170011705
     ],
-    "nulo_inequivoco_lr_mediana": 1.495193359309831,
+    "nulo_inequivoco_lr_mediana": 1.5001827048102374,
     "nulo_inequivoco_lr_ic95": [
-      1.3773130818083215,
-      1.6115676828706273
+      1.3821543746174436,
+      1.6167053783518235
     ],
     "lr_real_ambiguo": 0.97,
     "lr_real_inequivoco": 1.39,
     "gap_real_ineq_menos_amb": 0.41999999999999993,
-    "gap_nulo_mediana_ineq_menos_amb": 0.4797928312663442,
-    "fraccion_nulo_ambiguo_menor_o_igual_que_real": 0.13
+    "gap_nulo_mediana_ineq_menos_amb": 0.4871831409785652,
+    "fraccion_nulo_ambiguo_menor_o_igual_que_real": 0.1255
   },
   "BRCA1": {
     "n_overlap": 1706,
@@ -52,20 +52,20 @@
     "n_inequivoca": 1511,
     "frac_positiva_umbral_real_ambigua": 0.14871794871794872,
     "frac_positiva_umbral_real_inequivoca": 0.2097948378557247,
-    "nulo_ambiguo_lr_mediana": 1.0637104160510542,
+    "nulo_ambiguo_lr_mediana": 1.0632764425137857,
     "nulo_ambiguo_lr_ic95": [
-      0.7463895974195993,
-      1.4896472881919667
+      0.7531160700667479,
+      1.5135641878153434
     ],
     "nulo_inequivoco_lr_mediana": 2.841592427616926,
     "nulo_inequivoco_lr_ic95": [
       2.35038030003782,
-      3.4034477132646126
+      3.447039933702802
     ],
     "lr_real_ambiguo": 1.32,
     "lr_real_inequivoco": 5.45,
     "gap_real_ineq_menos_amb": 4.13,
-    "gap_nulo_mediana_ineq_menos_amb": 1.777882011565872,
-    "fraccion_nulo_ambiguo_menor_o_igual_que_real": 0.885
+    "gap_nulo_mediana_ineq_menos_amb": 1.7783159851031405,
+    "fraccion_nulo_ambiguo_menor_o_igual_que_real": 0.8885
   }
 }

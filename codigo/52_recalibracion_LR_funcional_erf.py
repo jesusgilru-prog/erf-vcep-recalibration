@@ -37,6 +37,7 @@ de codigo bajo la fuerza recalibrada -- MSH6/PMS2 no tienen DMS propio, asi
 que esto es una extrapolacion entre parálogos con rango, no un dato medido
 en esos genes.
 """
+import hashlib
 import importlib
 import json
 import re
@@ -53,6 +54,10 @@ c41 = importlib.import_module("41_comparar_esm1v")
 
 SEMILLA_GMM = 20260812          # misma que codigo/44_, para reproducir la misma clasificacion
 RNG_SEED_BOOT = 20260810        # misma que codigo/17_
+
+def _seed_det(s):
+    return int(hashlib.md5(s.encode('utf-8')).hexdigest(), 16) % 10000
+
 N_BOOT = 10000
 UMBRAL_POSTERIOR = 0.9
 CORTE_SUPPORTING = 2.08
@@ -415,9 +420,9 @@ def main():
                 lr_blando[etiqueta] = None
                 continue
             ld = lr_duro_con_ic(scores, cov_inequivoca, y_hard_cov, umbral, direccion,
-                                 seed=RNG_SEED_BOOT + hash(nombre + etiqueta) % 10000)
+                                 seed=RNG_SEED_BOOT + _seed_det(nombre + etiqueta) % 10000)
             lb = lr_blando_con_ic(scores, cov_ambigua, post_patho, post_ben, umbral, direccion,
-                                   seed=RNG_SEED_BOOT + 1 + hash(nombre + etiqueta) % 10000)
+                                   seed=RNG_SEED_BOOT + 1 + _seed_det(nombre + etiqueta) % 10000)
             if ld is not None:
                 ld["nominal_esperado"] = nominal
                 ld["alcanza_nominal_duro"] = bool(ld["lr_puntual"] >= nominal)

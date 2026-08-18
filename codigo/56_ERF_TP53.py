@@ -5,6 +5,7 @@ para BayesDel_addAF: BP4_Supporting si -0.008<BayesDel<0.16, BP4_Moderate si
 BayesDel<=-0.008, PP3 (fuerza minima garantizada Supporting, ver
 codigo/55_ sobre la simplificacion de aGVGD) si BayesDel>=0.16.
 """
+import hashlib
 import importlib
 import sys
 
@@ -17,6 +18,10 @@ c52 = importlib.import_module("52_recalibracion_LR_funcional_erf")
 
 SEMILLA_GMM = 20260814
 RNG_SEED_BOOT = 20260814
+
+def _seed_det(s):
+    return int(hashlib.md5(s.encode('utf-8')).hexdigest(), 16) % 10000
+
 N_BOOT = 10000
 UMBRAL_POSTERIOR = 0.9
 CORTE_SUPPORTING = 2.08
@@ -69,9 +74,9 @@ def main():
         ("PP3 (>=Supporting, umbral 0.16)", ("patho", 0.16, CORTE_SUPPORTING)),
     ]:
         ld = c52.lr_duro_con_ic(oficial, cov_inequivoca, y_hard_cov, umbral, direccion,
-                                 seed=RNG_SEED_BOOT + hash(etiqueta) % 10000)
+                                 seed=RNG_SEED_BOOT + _seed_det(etiqueta) % 10000)
         lb = c52.lr_blando_con_ic(oficial, cov_ambigua, post_patho, post_ben, umbral, direccion,
-                                   seed=RNG_SEED_BOOT + 1 + hash(etiqueta) % 10000)
+                                   seed=RNG_SEED_BOOT + 1 + _seed_det(etiqueta) % 10000)
         if ld is not None:
             ld["nominal_esperado"] = nominal
             ld["alcanza_nominal_duro"] = bool(ld["lr_puntual"] >= nominal)

@@ -20,6 +20,7 @@ Se repiten los 3 tramos "titulares" de Table~synthesis del manuscrito:
     explicitos, sin corte de posterior arbitrario -- la componente central
     ES la region ambigua por construccion del modelo, argmax puro).
 """
+import hashlib
 import importlib
 import json
 import sys
@@ -33,6 +34,10 @@ c55 = importlib.import_module("55_analisis_completo_TP53")
 c57 = importlib.import_module("57_ERF_BRCA1")
 
 RNG_SEED_BOOT = 20260814
+
+def _seed_det(s):
+    return int(hashlib.md5(s.encode('utf-8')).hexdigest(), 16) % 10000
+
 UMBRALES_POSTERIOR = [0.70, 0.80, 0.90, 0.95, 0.99]
 
 GENES = {
@@ -103,7 +108,7 @@ def main():
             cov_ambigua = [k for k in keys_ambigua if k in scores]
             lb = c52.lr_blando_con_ic(
                 scores, cov_ambigua, post_patho, post_ben, cfg["umbral_score"], cfg["direccion"],
-                seed=RNG_SEED_BOOT + int(up * 100) + hash(gen) % 1000)
+                seed=RNG_SEED_BOOT + int(up * 100) + _seed_det(gen) % 1000)
             lb["n_ambigua_total"] = len(keys_ambigua)
             lb["cobertura_predictor"] = len(cov_ambigua)
             lb["ic_incluye_1"] = bool(lb["ic95"][0] is not None and lb["ic95"][0] <= 1.0 <= lb["ic95"][1])
@@ -116,7 +121,7 @@ def main():
         cov_amb3 = [k for k in keys_amb3 if k in scores]
         lb3 = c52.lr_blando_con_ic(
             scores, cov_amb3, post_patho3, post_ben3, cfg["umbral_score"], cfg["direccion"],
-            seed=RNG_SEED_BOOT + 9000 + hash(gen) % 1000)
+            seed=RNG_SEED_BOOT + 9000 + _seed_det(gen) % 1000)
         lb3["n_ambigua_total"] = len(keys_amb3)
         lb3["cobertura_predictor"] = len(cov_amb3)
         lb3["ic_incluye_1"] = bool(lb3["ic95"][0] is not None and lb3["ic95"][0] <= 1.0 <= lb3["ic95"][1])
